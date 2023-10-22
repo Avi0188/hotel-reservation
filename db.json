@@ -1,19 +1,470 @@
 {
-  "posts": [
+  "hotel": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Example Hotel",
+      "address": "123 Main Street",
+      "city": "Cityville",
+      "state": "FL",
+      "email": "info@examplehotel.com",
+      "rate": 4000
+    },
+    {
+      "id": 2,
+      "name": "Example Hotel2",
+      "address": "555 Main Street",
+      "city": "Florida",
+      "state": "NY",
+      "email": "check@gmail.com",
+      "rate": 4000
+    },
+    {
+      "id": 3,
+      "name": "Sunset Resort",
+      "address": "789 Beach Boulevard",
+      "city": "Beachtown",
+      "state": "CA",
+      "email": "sunset@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 4,
+      "name": "Mountain View Lodge",
+      "address": "456 Forest Road",
+      "city": "Mountainville",
+      "state": "CO",
+      "email": "mountainview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 5,
+      "name": "Seaside Inn",
+      "address": "101 Ocean Avenue",
+      "city": "Seasidetown",
+      "state": "CA",
+      "email": "seaside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 6,
+      "name": "Palm Breeze Hotel",
+      "address": "220 Palm Street",
+      "city": "Palmville",
+      "state": "FL",
+      "email": "palm@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 7,
+      "name": "Mountain Vista Lodge",
+      "address": "789 Mountain View Road",
+      "city": "Mountainview",
+      "state": "CO",
+      "email": "mountainvista@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 8,
+      "name": "Oceanfront Resort",
+      "address": "111 Beachfront Avenue",
+      "city": "Beachcity",
+      "state": "CA",
+      "email": "oceanfront@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 9,
+      "name": "Downtown Suites",
+      "address": "789 Downtown Street",
+      "city": "Metropolis",
+      "state": "IL",
+      "email": "downtown@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 10,
+      "name": "Riverfront Hotel",
+      "address": "33 River Road",
+      "city": "Rivertown",
+      "state": "TX",
+      "email": "riverfront@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 11,
+      "name": "Hillside Inn",
+      "address": "123 Hill Avenue",
+      "city": "Hilltop",
+      "state": "CA",
+      "email": "hillside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 12,
+      "name": "Harborview Lodge",
+      "address": "77 Harbor Street",
+      "city": "Harborville",
+      "state": "WA",
+      "email": "harborview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 13,
+      "name": "Lakeside Resort",
+      "address": "456 Lakeview Drive",
+      "city": "Laketown",
+      "state": "MI",
+      "email": "lakeside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 14,
+      "name": "City Lights Hotel",
+      "address": "888 Skylight Avenue",
+      "city": "Citylights",
+      "state": "NV",
+      "email": "citylights@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 15,
+      "name": "Meadowside Inn",
+      "address": "789 Meadow Lane",
+      "city": "Meadowville",
+      "state": "VA",
+      "email": "meadowside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 16,
+      "name": "Sunny Hills Hotel",
+      "address": "101 Sunshine Street",
+      "city": "Sunnytown",
+      "state": "AZ",
+      "email": "sunnyhills@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 17,
+      "name": "Golden Sands Resort",
+      "address": "220 Beach Road",
+      "city": "Goldenville",
+      "state": "CA",
+      "email": "goldensands@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 18,
+      "name": "Windsor Inn",
+      "address": "456 Windsor Street",
+      "city": "Windsorville",
+      "state": "NJ",
+      "email": "windsor@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 19,
+      "name": "Starlight Hotel",
+      "address": "111 Star Avenue",
+      "city": "Starville",
+      "state": "TX",
+      "email": "starlight@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 20,
+      "name": "Forest View Lodge",
+      "address": "789 Forest Drive",
+      "city": "Forestville",
+      "state": "OR",
+      "email": "forestview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 21,
+      "name": "Riverside Inn",
+      "address": "33 Riverside Road",
+      "city": "Riverside",
+      "state": "LA",
+      "email": "riverside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 22,
+      "name": "Hilltop Hotel",
+      "address": "123 Hilltop Avenue",
+      "city": "Hilltown",
+      "state": "KS",
+      "email": "hilltop@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 23,
+      "name": "Harbor Breeze Lodge",
+      "address": "77 Harbor Breeze Street",
+      "city": "Harborbreeze",
+      "state": "CA",
+      "email": "harborbreeze@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 24,
+      "name": "Lakeshore Resort",
+      "address": "456 Lakeshore Drive",
+      "city": "Lakeshoreville",
+      "state": "NY",
+      "email": "lakeshore@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 25,
+      "name": "Mountain Retreat Hotel",
+      "address": "888 Mountain Road",
+      "city": "Mountainretreat",
+      "state": "CO",
+      "email": "mountainretreat@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 26,
+      "name": "Sunnyvale Inn",
+      "address": "789 Sunnystreet Avenue",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "email": "sunnyvale@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 27,
+      "name": "Beachfront Hotel",
+      "address": "101 Beachfront Drive",
+      "city": "Beachfront",
+      "state": "FL",
+      "email": "beachfront@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 28,
+      "name": "Countryside Lodge",
+      "address": "220 Countryside Road",
+      "city": "Countrysideville",
+      "state": "TX",
+      "email": "countryside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 29,
+      "name": "Riverside Retreat Inn",
+      "address": "456 Riverside Avenue",
+      "city": "Riversideretreat",
+      "state": "AZ",
+      "email": "riversideretreat@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 30,
+      "name": "Palm Tree Hotel",
+      "address": "111 Palm Street",
+      "city": "Palmville",
+      "state": "FL",
+      "email": "palm@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 31,
+      "name": "Lakeview Lodge",
+      "address": "33 Lakeview Road",
+      "city": "Lakeview",
+      "state": "WA",
+      "email": "lakeview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 32,
+      "name": "Cityscape Inn",
+      "address": "123 Cityscape Avenue",
+      "city": "Cityscape",
+      "state": "NV",
+      "email": "cityscape@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 33,
+      "name": "Meadowview Hotel",
+      "address": "77 Meadowview Street",
+      "city": "Meadowview",
+      "state": "VA",
+      "email": "meadowview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 34,
+      "name": "Sunrise Resort",
+      "address": "789 Sunrise Drive",
+      "city": "Sunriseville",
+      "state": "AZ",
+      "email": "sunrise@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 35,
+      "name": "Golden Hills Inn",
+      "address": "101 Golden Hills Avenue",
+      "city": "Goldenhills",
+      "state": "CA",
+      "email": "goldenhills@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 36,
+      "name": "Oceanview Lodge",
+      "address": "220 Oceanview Road",
+      "city": "Oceanview",
+      "state": "NJ",
+      "email": "oceanview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 37,
+      "name": "Windsor Castle Hotel",
+      "address": "456 Castle Street",
+      "city": "Castleville",
+      "state": "TX",
+      "email": "castle@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 38,
+      "name": "Starbright Hotel",
+      "address": "111 Starbright Avenue",
+      "city": "Starbright",
+      "state": "NV",
+      "email": "starbright@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 39,
+      "name": "Forest Retreat Lodge",
+      "address": "33 Forest Retreat Road",
+      "city": "Forestretreat",
+      "state": "OR",
+      "email": "forestretreat@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 40,
+      "name": "Riverside View Inn",
+      "address": "123 Riverside View Avenue",
+      "city": "Riversideview",
+      "state": "LA",
+      "email": "riversideview@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 41,
+      "name": "Hillside Manor Hotel",
+      "address": "77 Hillside Manor Street",
+      "city": "Hillsidemanor",
+      "state": "KS",
+      "email": "hillside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 42,
+      "name": "Harbor Vista Lodge",
+      "address": "789 Harbor Vista Drive",
+      "city": "Harborvista",
+      "state": "CA",
+      "email": "harborvista@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 43,
+      "name": "Lakeside Manor Resort",
+      "address": "101 Lakeside Manor Avenue",
+      "city": "Lakesidemanor",
+      "state": "NY",
+      "email": "lakesidemanor@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 44,
+      "name": "Mountainview Manor Hotel",
+      "address": "220 Mountainview Manor Road",
+      "city": "Mountainviewmanor",
+      "state": "CO",
+      "email": "mountainviewmanor@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 45,
+      "name": "Sunnydale Inn",
+      "address": "456 Sunnydale Street",
+      "city": "Sunnydale",
+      "state": "CA",
+      "email": "sunnydale@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 46,
+      "name": "Beachside Lodge",
+      "address": "111 Beachside Avenue",
+      "city": "Beachside",
+      "state": "FL",
+      "email": "beachside@example.com",
+      "rate": 4000
+    },
+    {
+      "id": 47,
+      "name": "Countryside View Hotel",
+      "address": "33 Countryside View Road",
+      "city": "Countrysideview",
+      "state": "TX",
+      "email": "countrysideview@example.com",
+      "rate": 4000
     }
   ],
-  "comments": [
+  "booking": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Example Hotel",
+      "checkin": "23-10-2023",
+      "checkout": "23-01-2024",
+      "email": "abc@gmail.com"
+    },
+    {
+      "email": "abc@gm",
+      "checkin": "2023-10-11",
+      "checkout": "2023-10-12",
+      "name": "Seaside Inn",
+      "id": 2
+    },
+    {
+      "email": "john@example.com",
+      "checkInDate": "",
+      "checkOutDate": "",
+      "checkin": "2023-10-24",
+      "checkout": "2023-10-25",
+      "name": "Sunset Resort",
+      "id": 3
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "checkInDate": "",
+      "checkOutDate": "",
+      "checkin": "2023-10-25",
+      "checkout": "2023-10-26",
+      "name": "Seaside Inn",
+      "id": 4
+    },
+    {
+      "email": "ind@gmail.com",
+      "checkInDate": "",
+      "checkOutDate": "",
+      "checkin": "2023-11-08",
+      "checkout": "2023-11-10",
+      "name": "Example Hotel",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
