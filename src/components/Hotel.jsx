@@ -134,7 +134,7 @@ import {
           </Box>
           <Box
             style={{ marginTop: '20vh', height: '100%' }}
-            display={{ md: 'block', base: 'none' }}
+            display={{ md: 'block' }}
           >
             <Reservation singlePage={singlePage} />
           </Box>
