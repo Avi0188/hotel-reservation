@@ -204,6 +204,7 @@ const NAV_ITEMS = [
     to: '/hotels',
   },
   {
+   
     label: 'View Reservation',
     to: '/booking', 
   },

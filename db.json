@@ -438,33 +438,7 @@
       "checkout": "2023-10-12",
       "name": "Seaside Inn",
       "id": 2
-    },
-    {
-      "email": "john@example.com",
-      "checkInDate": "",
-      "checkOutDate": "",
-      "checkin": "2023-10-24",
-      "checkout": "2023-10-25",
-      "name": "Sunset Resort",
-      "id": 3
-    },
-    {
-      "email": "eve.holt@reqres.in",
-      "checkInDate": "",
-      "checkOutDate": "",
-      "checkin": "2023-10-25",
-      "checkout": "2023-10-26",
-      "name": "Seaside Inn",
-      "id": 4
-    },
-    {
-      "email": "ind@gmail.com",
-      "checkInDate": "",
-      "checkOutDate": "",
-      "checkin": "2023-11-08",
-      "checkout": "2023-11-10",
-      "name": "Example Hotel",
-      "id": 5
     }
+   
   ]
 }

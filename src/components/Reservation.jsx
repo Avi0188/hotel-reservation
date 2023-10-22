@@ -3,11 +3,13 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const Reservation = ({ singlePage }) => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     email: '',
-    checkInDate: '',
-    checkOutDate: '',
-  });
+    checkin: '',
+    checkout: '',
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,11 +26,12 @@ const Reservation = ({ singlePage }) => {
       name: singlePage.name,
     };
 
-
     axios.post('http://localhost:8080/booking', data)
       .then((response) => {
         console.log('Form data submitted successfully:', response.data);
-        alert ("Booking Successfull")
+        alert("Booking Successful");
+        // Clear the form data
+        setFormData(initialFormData);
       })
       .catch((error) => {
         console.error('Error submitting form data:', error);
@@ -86,7 +89,7 @@ const Reservation = ({ singlePage }) => {
             </FormControl>
           </Box>
           <Button type="submit" colorScheme="green">
-           Place Reservation
+            Place Reservation
           </Button>
         </form>
       ) : null}
