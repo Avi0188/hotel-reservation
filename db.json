@@ -438,7 +438,41 @@
       "checkout": "2023-10-12",
       "name": "Seaside Inn",
       "id": 2
+    },
+    {
+      "email": "john@example.com",
+      "checkin": "2023-11-09",
+      "checkout": "2023-12-09",
+      "name": "Example Hotel",
+      "id": 3
+    },
+    {
+      "email": "r@gmail.com",
+      "checkin": "2023-10-26",
+      "checkout": "2023-10-27",
+      "name": "Example Hotel",
+      "id": 4
+    },
+    {
+      "email": "john@example.com",
+      "checkin": "2023-10-25",
+      "checkout": "2023-10-27",
+      "name": "Example Hotel",
+      "id": 5
+    },
+    {
+      "email": "abc@gm",
+      "checkin": "2023-10-26",
+      "checkout": "2023-10-27",
+      "name": "Seaside Inn",
+      "id": 6
+    },
+    {
+      "email": "afsr@gmail",
+      "checkin": "2023-11-24",
+      "checkout": "2023-11-10",
+      "name": "Sunset Resort",
+      "id": 7
     }
-   
   ]
 }

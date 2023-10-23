@@ -102,7 +102,7 @@ import {
                     <Td>{el.address}</Td>
                     <Td>{`${el.city}, ${el.state}`}</Td>
                     <Td>
-                      <Link to={`/hotels/${el.id}`}>
+                      <Link to={`/hotel/${el.id}`}>
                         <Button
                           colorScheme="green"
                           onClick={() => setSinglePage(el)}

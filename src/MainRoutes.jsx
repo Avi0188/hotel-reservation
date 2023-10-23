@@ -10,7 +10,8 @@ const MainRoutes = () => {
   
 
       <Route path="/hotels" element={<Hotel />} />
-      <Route path="/hotels/:id" element={<Hotel/>} />
+      <Route path="/" element={<Hotel />} />
+      <Route path="/hotel/:id" element={<Hotel/>} />
       <Route path="booking" element={<ViewReservation />} />
     
   </Routes>

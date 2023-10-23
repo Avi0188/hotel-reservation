@@ -1,6 +1,7 @@
 import { Box, Button, FormControl, FormLabel, Input, Text } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 
 const Reservation = ({ singlePage }) => {
   const initialFormData = {
@@ -10,6 +11,7 @@ const Reservation = ({ singlePage }) => {
   };
 
   const [formData, setFormData] = useState(initialFormData);
+  const navigate = useNavigate(); // Use the useNavigate hook
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -32,6 +34,9 @@ const Reservation = ({ singlePage }) => {
         alert("Booking Successful");
         // Clear the form data
         setFormData(initialFormData);
+        
+        // Redirect to another page
+        navigate('/booking'); 
       })
       .catch((error) => {
         console.error('Error submitting form data:', error);
@@ -92,7 +97,9 @@ const Reservation = ({ singlePage }) => {
             Place Reservation
           </Button>
         </form>
-      ) : null}
+      ) :   <Box style={{ backgroundColor: "skyblue" }}>
+      <h2 style={{ backgroundColor: "skyblue" }}>Hotel Details</h2>
+    </Box>}
     </Box>
   );
 };

@@ -24,7 +24,9 @@ import {
   import { Link } from 'react-router-dom'
 const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
-
+  const refreshPage = () => {
+    window.location.reload();
+  };
   return (
     <Box>
     <Flex
