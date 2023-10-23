@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <Box>
     <Flex
-      bg={useColorModeValue('white', 'gray.800')}
+      bg={useColorModeValue('black', 'gray.800')}
       color={useColorModeValue('gray.600', 'white')}
       minH={'60px'}
       py={{ base: 2 }}
@@ -54,7 +54,7 @@ const Navbar = () => {
         <Text
           textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
           fontFamily={'heading'}
-          color={useColorModeValue('gray.800', 'white')}>
+          color={useColorModeValue('white', 'white')}>
           <Link to="/hotels">Hotel Booking Application</Link>
         </Text>
 
@@ -72,8 +72,8 @@ const Navbar = () => {
 };
 
 const DesktopNav = () => {
-  const linkColor = useColorModeValue('gray.600', 'gray.200');
-  const linkHoverColor = useColorModeValue('gray.800', 'white');
+  const linkColor = useColorModeValue('white', 'white');
+  const linkHoverColor = useColorModeValue('white', 'white');
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
   return (

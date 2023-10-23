@@ -66,7 +66,7 @@ import {
     const currentHotels = filteredHotels.slice(startIndex, endIndex);
   
     return (
-      <Box>
+      <Box style={{marginTop:"3vh"}}>
         <Box
           style={{ marginTop: isSmallScreen ? '10vh' : '0', width: '80%' }}
           display={{ md: 'flex', base: 'block' }}
